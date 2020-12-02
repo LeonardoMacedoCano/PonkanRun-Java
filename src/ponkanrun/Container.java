@@ -2,9 +2,12 @@ package ponkanrun;
 
 import javax.swing.JFrame;
 
+import ponkanrun.Modelo.Fase;
+
 public class Container extends JFrame {
 
 	public Container() {
+		add(new Fase());
 		setTitle("Ponkan Run");
 		setSize(1024, 728);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
