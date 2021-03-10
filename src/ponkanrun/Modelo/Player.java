@@ -13,12 +13,12 @@ public class Player {
 	private int altura, largura;
 	
 	public Player() {
-		this.x = 100;
-		this.y = 100;
+		this.x = 40;
+		this.y = 535;
 	}
 	
 	public void load() {
-		ImageIcon referencia = new ImageIcon("res/avt1.png");
+		ImageIcon referencia = new ImageIcon("res/avtAndandoDireita1.png");
 		imagem = referencia.getImage();
 		
 		altura = imagem.getHeight(null);
@@ -42,11 +42,11 @@ public class Player {
 		}
 		
 		if(codigo == KeyEvent.VK_LEFT) {
-			dx = -3;
+			//dx = -3;
 		}
 		
 		if(codigo == KeyEvent.VK_RIGHT) {
-			dx = 3;
+			//dx = 3;
 		}
 	}
 	
