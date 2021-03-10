@@ -9,7 +9,7 @@ public class Container extends JFrame {
 	public Container() {
 		add(new Fase());
 		setTitle("Ponkan Run");
-		setSize(1024, 728);
+		setSize(1040, 765);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);
 		this.setResizable(false);
